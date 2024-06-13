@@ -20,4 +20,4 @@ The objective of creating an Active Directory lab is to provide a controlled env
 - GPMC to create and edit group policies across the virtual network. 
 
 ## Steps
-Step one come up with a basic network diagram for the virtual machines: <img src="https://imgur.com/a/ZFH2TGU "/>
+ Step 1: Network Diagram ![](https://imgur.com/gallery/network-diagram-IJZMSLa)
