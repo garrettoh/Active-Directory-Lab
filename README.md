@@ -20,4 +20,6 @@ The objective of creating an Active Directory lab is to provide a controlled env
 - GPMC to create and edit group policies across the virtual network. 
 
 ## Steps
+I followed along a youtube video to get the virtual AD enviornment set-up 
  Step 1: Network Diagram ![](https://i.imgur.com/a8KCLM9.png)
+ Step 2: Download and configure the Virtual Machine with Windows Server 2019 installed (virtualbox)
