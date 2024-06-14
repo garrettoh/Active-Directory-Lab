@@ -22,21 +22,21 @@ I followed along a youtube video to get the virtual AD enviornment set-up
 ### Windows server steps!
  Step 1: Network Diagram ![](https://i.imgur.com/a8KCLM9.png)
  
- Step 2: Download and configure the Virtual Machine with Windows Server 2019 installed 
+ Step 2: Download and configure the Virtual Machine with Windows Server 2019 installed. 
  
- Step 3: Add the server role AD DS (Active Directory and Domain Services
+ Step 3: Add the server role AD DS (Active Directory and Domain Services.
  
- Step: 4: Go to the Dashboard and click on manage and Promote the server to a DC (Domain controller) 
+ Step: 4: Go to the Dashboard and click on manage and Promote the server to a DC (Domain controller). 
  
- Step 5: Open the ADDS Configuration wizard and add a new forest we will call ours mydomain.com
+ Step 5: Open the ADDS Configuration wizard and add a new forest we will call ours mydomain.com.
  
-Step 6: We should see that we are now user: MYDOMAIN\Administrator and if we try and login to another user it will be under mydomain
+Step 6: We should see that we are now user: MYDOMAIN\Administrator and if we try and login to another user it will be under mydomain.
 
-Step 7: I created my own user in Active Directory users and Computers and made an organizational unit called _ADMINS
+Step 7: I created my own user in Active Directory users and Computers and made an organizational unit called _ADMINS.
 
-Step 8: If we want to escalate the privilege of the newly created user we will right click user go properties and then under the "Member Of" tab we will click add and then to add the domain admin privilege we will type in "domain admins" under the field "Enter the object names to select"
+Step 8: If we want to escalate the privilege of the newly created user we will right click user go properties and then under the "Member Of" tab we will click add and then to add the domain admin privilege we will type in "domain admins" under the field "Enter the object names to select."
 
-Step 9: We now should be able to login to the other user tab on our windows virtual server under the newly created user
+Step 9: We now should be able to login to the other user tab on our windows virtual server under the newly created user.
 
 Step 10: Go to network adapter settings and give the internal adapter a static IP to act as the server IP for the client machine with a DNS Loopback address so that the machine can use itself to resolve the domain names. (127.0.0.1)
 
@@ -60,13 +60,13 @@ Step 16 (optional): If your windows machine isn't showing the group policy chang
 
 ### Windows Client Steps 
 
-Step 1: We now need to setup the internal network settings in the virtual machine for our windows client do so by changing network adapter from nat to internal network
+Step 1: We now need to setup the internal network settings in the virtual machine for our windows client do so by changing network adapter from nat to internal network.
 
-Step 2: Make sure that you are connected through the windows server to the internet by opening cmd and typing ipconfig /all
+Step 2: Make sure that you are connected through the windows server to the internet by opening cmd and typing ipconfig /all.
 
-Step 3: Join the domain, Go to system poroperties and where it shows your computer name click change workgroup settings and under member of click Domain and then type in the domain name, In my case it would be mydomain.com
+Step 3: Join the domain, Go to system poroperties and where it shows your computer name click change workgroup settings and under member of click Domain and then type in the domain name, In my case it would be mydomain.com.
 
-Step 4: you now should be able to login under any account registered within the domain
+Step 4: you now should be able to login under any account registered within the domain.
 
 
 
