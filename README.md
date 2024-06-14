@@ -1,4 +1,6 @@
-# Active Directory Lab
+# Active Directory Lab (WIP)
+
+
 
 ## Objective
 The objective of creating an Active Directory lab is to provide a controlled environment for learning and experimenting with Active Directory configurations, security practices, and administrative tasks. This lab allowed me to gain hands-on experience with directory services, improve my understanding of user and group management, and analyze logs for security events, ultimately enhancing my skills in managing and securing an Active Directory infrastructure.
