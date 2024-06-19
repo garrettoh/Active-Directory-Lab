@@ -65,7 +65,7 @@ Step 12: We're now going to add the role "DHCP Server", so that we can use the w
 <img src="Pictures/Ipv4.PNG" class="img-responsive" alt="">
 
 
-Step 13: WE HAVE NOW COMPLETED THE BASIC SETUP FOR OUR AD ENVIORNMENT !
+Step 13: WE HAVE NOW COMPLETED THE BASIC SETUP FOR OUR AD ENVIRONMENT !
 
 
 
