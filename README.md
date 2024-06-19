@@ -42,7 +42,7 @@ Step 8: If we want to escalate the privilege of the newly created user we will r
 
 Step 9: We now should be able to login to the newly created user in the domain. <img src="Pictures/login1.PNG" class="img-responsive" alt="">
 
-Step 10: Go to network adapter settings and then give the internal adapter a static IP to act as the server IP for the client machine. Next add a DNS Loopback address so that the machine can use itself to resolve the domain names. (127.0.0.1)<img src="Pictures/setting up internal adapter.PNG" class="img-responsive" alt="">
+Step 10: Go to network adapter settings and then give the internal adapter a static IP to act as the server IP for the client machine. Next add a DNS Loopback address so that the server can use itself to resolve the domain names. (127.0.0.1)<img src="Pictures/setting up internal adapter.PNG" class="img-responsive" alt="">
 
 Step 11 (the important one): We are going to set up routing, so were going to go back to add roles and add in remote access and then under the remote access tab were going to click the routing option. This will allow us to use the virtual network adapters to act as a server for our other windows virtual machine(s).
 <img src="Pictures/setting up routing.PNG" class="img-responsive" alt="">
