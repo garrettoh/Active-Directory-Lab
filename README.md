@@ -12,6 +12,7 @@ The objective of creating an Active Directory lab is to provide a controlled env
 - Authentication and Authorization: Understand and configure authentication mechanisms and authorization settings to secure resources.
 - Backup and Recovery: Perform backup and recovery operations to ensure the availability and integrity of Active Directory data.
 - Troubleshooting: Diagnose and resolve common Active Directory issues to maintain a healthy and functional directory service.
+- Routing and Subnetting: Implement routing to an Active Directory environment and setup the DHCP server along with configuring the subnet mask to be a /24 Network (255.255.255.0)
 
 ### Tools Used
 - RSAT to Remotely manage the AD Enviornment from the virtual client machine.
