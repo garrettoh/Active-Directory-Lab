@@ -72,10 +72,10 @@ Step 13: WE HAVE NOW COMPLETED THE BASIC SETUP FOR OUR AD ENVIRONMENT !
 
 Step 14: (optional) : From the video there was a powershell script that I ran to create around 1000 user accounts with random names.  Allowing us to have fake users to simulate a somewhat realistic environment for our lab.<img src="Pictures/pshell script.PNG" class="img-responsive" alt="">
 
-Step 15 (optional): Mess around with some of the features! I messed around with some of the settings and features I used GPMMC to change the group policies to allow them access to files or folders. I also created shared folders so that every computer in the network could access certain important files. Aswell as created a desktop wallpaper for each user.
+Step 15 (optional): Mess around with some of the features! I messed around with some of the settings and features, I used GPMMC to change the group policies to change access to files or folders for users. I also created shared folders so that every computer in the network could access important files. Aswell as created a desktop wallpaper for each basic user.
 <img src="Pictures/change desktop gorup policy.PNG" class="img-responsive" alt="">
 
-Step 16 (optional): If your windows machine isn't showing the group policy changes you made through GPMMC you can open cmd as admin and type in, "gpupdate /force" which will force all of the computers to update the group policy. Adhering to the rules that you have newly created. <img src="Pictures/gpupdate force.PNG" class="img-responsive" alt="">
+Step 16 (optional): If your windows machine isn't showing the group policy changes you made through GPMMC you can open cmd as admin and type in, "gpupdate /force" which will force all of the computers to update and adhere to the newly created group policy. <img src="Pictures/gpupdate force.PNG" class="img-responsive" alt="">
 
 ### Windows Client Steps 
 
