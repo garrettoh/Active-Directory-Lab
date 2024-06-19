@@ -1,5 +1,4 @@
-# Active Directory Lab (WIP)
-
+# Active Directory Lab
 
 
 ## Objective
